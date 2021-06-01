@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormKalori">
+  <grid id="27dc6" binding="panelKalori" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="502" height="414"/>
+    </constraints>
+    <properties>
+      <background color="-3048775"/>
+      <foreground color="-15857136"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="db41d" class="javax.swing.JLabel" binding="labelJudul">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="16" style="1"/>
+          <foreground color="-15857136"/>
+          <text value="KALKULATOR DAN KONSULTASI KEBUTUHAN KALORI"/>
+        </properties>
+      </component>
+      <component id="c0914" class="javax.swing.JLabel" binding="labelUmur">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="3"/>
+          <foreground color="-15857136"/>
+          <text value="Umur"/>
+        </properties>
+      </component>
+      <component id="38fd8" class="javax.swing.JLabel" binding="labelTb">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="3"/>
+          <foreground color="-15857136"/>
+          <text value="Tinggi Badan"/>
+        </properties>
+      </component>
+      <component id="3bb2a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="3"/>
+          <foreground color="-15857136"/>
+          <text value="Berat Badan"/>
+        </properties>
+      </component>
+      <component id="6879a" class="javax.swing.JTextField" binding="tfTb">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+        </properties>
+      </component>
+      <component id="98a93" class="javax.swing.JTextField" binding="tfBb">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+        </properties>
+      </component>
+      <vspacer id="21733">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="de9a6">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="23fc7">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="abb20">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="d2d28" class="javax.swing.JButton" binding="hitungButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11508378"/>
+          <font style="1"/>
+          <foreground color="-15857136"/>
+          <text value="Hitung"/>
+        </properties>
+      </component>
+      <component id="a33b7" class="javax.swing.JButton" binding="hapusButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11508378"/>
+          <font style="1"/>
+          <foreground color="-15857136"/>
+          <text value="Hapus"/>
+        </properties>
+      </component>
+      <component id="f2230" class="javax.swing.JButton" binding="keluarButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11508378"/>
+          <font style="1"/>
+          <foreground color="-15857136"/>
+          <text value="Keluar"/>
+        </properties>
+      </component>
+      <component id="46106" class="javax.swing.JTextField" binding="tfUmur">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+        </properties>
+      </component>
+      <component id="b4b2" class="javax.swing.JTextArea" binding="textKeterangan">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1227849"/>
+          <font name="Consolas"/>
+          <foreground color="-15857136"/>
+        </properties>
+      </component>
+      <component id="3a42c" class="javax.swing.JComboBox" binding="comboPilihan">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3355393"/>
+          <foreground color="-15857136"/>
+          <model>
+            <item value="Pilih Jenis Kelamin"/>
+            <item value="Laki-laki"/>
+            <item value="Perempuan"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b1369" class="javax.swing.JLabel" binding="labelGender">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="3"/>
+          <foreground color="-15857136"/>
+          <text value="Jenis Kelamin"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
